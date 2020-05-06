@@ -3,8 +3,8 @@ import json
 
 class SecurityTrails():
     def __init__(self, args, target, handler):
-        self.description = "Example module"
-        self.author      = '@m8r0wn'
+        self.description = "Security Trails Module"
+        self.author      = '@ahmetumitbayram'
         self.method      = ['scrape']
 
         self.handler     = handler
@@ -17,7 +17,7 @@ class SecurityTrails():
         dot = "."
         headers = {
             'accept': "application/json",
-            'apikey': "njuX3LKA5D3SoKJzg8yZDIxDo2h8mlZg"
+            'apikey': "YOUR_API_KEY_HERE"
         }
 
         response = requests.request("GET", url, headers=headers)
