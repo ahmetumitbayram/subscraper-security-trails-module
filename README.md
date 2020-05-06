@@ -1,4 +1,4 @@
-# Subscraper Shodan Module
+# Subscraper SecurityTrails Module
 
 [TR] trails.py dosyasını /subscraper/modules/ dizinine atın ve init.py dosyasının içerisine 'trails' : 'SecurityTrails' ifadesini ekleyin. Son olarak 20. satıra kendi API Key'inizi girin.
 
